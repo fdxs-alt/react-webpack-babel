@@ -1,19 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-const App = () => {
-  const [state, setState] = useState('')
-  return (
-    <div>
-      <h1>{state}</h1>
-      <input
-        type="text"
-        value={state}
-        onChange={(e) => {
-          setState(e.target.value)
-        }}
-      />
-    </div>
-  )
-}
+const App = () => <div>App</div>
 
 export default App
